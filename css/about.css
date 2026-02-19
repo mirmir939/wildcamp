@@ -1,0 +1,188 @@
+#wrap {
+    color: #f8f8ff;
+}
+
+#about {
+    /* background: url(../img/about/about_bg1.jpg) no-repeat center; */
+
+    height: 1200px;
+}
+
+.about_inner {
+    width: 1320px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* padding-top: 45px; */
+    color: #1c1c1c;
+
+}
+
+#about .name img {
+    margin-top: 120px;
+}
+
+.about1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about_text {
+    width: 600px;
+    box-sizing: border-box;
+}
+
+.about_text1 {
+    padding-left: 30px;
+}
+
+.about_text2 {
+    padding-right: 30px;
+}
+
+.about_text p {
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 17px;
+    font-weight: 400;
+}
+
+.about_text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 13px;
+    text-align: center;
+}
+
+.about_img {
+    width: 600px;
+    height: 370px;
+
+}
+
+#about img {
+    display: block;
+}
+
+.small_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small_img1 {
+    padding-top: 66px;
+    height: 102px;
+
+}
+
+.small_img2 {
+    /* margin-top: 10px; */
+    padding-top: 58px;
+}
+
+/*  */
+
+/*  */
+#slogan {
+    height: 700px;
+    background: url(../img/about/about_bg2.jpg) no-repeat center;
+    box-sizing: border-box;
+}
+
+#slogan .name img {
+    margin-top: 80px;
+}
+
+.slogan_inner {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.slogan_text {
+    background-color: rgba(58, 63, 51, 0.2);
+    width: 570px;
+    height: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.slogan_text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.slogan_img {}
+
+/* slogan  e */
+
+#camp {
+    box-sizing: border-box;
+    height: 850px;
+    background: url(../img/about/about_bg3.jpg) no-repeat center;
+
+}
+
+.camp_inner {
+    width: 1320px;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+#camp .name img {
+    margin-top: 100px;
+}
+
+.camp_inner ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.camp_inner ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.camp_text h3 {
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+.camp_text p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 21px;
+    padding-top: 20px;
+}
+
+.camp_text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #daa520;
+}

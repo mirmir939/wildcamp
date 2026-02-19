@@ -1,0 +1,179 @@
+ #popular p {
+     margin-left: 45px;
+     padding-bottom: 60px;
+     font-size: 32px;
+     color: #daa520;
+
+ }
+
+ #popular {
+     margin-top: 120px;
+ }
+
+ .popular_img {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+
+ }
+
+
+ /* popular e */
+ #wrap {
+     overflow: hidden;
+ }
+
+ #flow p {
+     font-size: 32px;
+     color: #daa520;
+     padding-bottom: 60px;
+     margin-left: 345px;
+ }
+
+ #flow {
+     margin-top: 150px;
+     height: 850px;
+     padding: 100px 0;
+     width: 1920px;
+     margin: 0 auto;
+ }
+
+ #flow .title_wrapper {}
+
+ .flow_line {
+     display: flex;
+     width: 4200px;
+     padding-bottom: 30px;
+ }
+
+ .flow_line ul {
+     display: flex;
+     justify-content: space-around;
+     width: 2100px;
+ }
+
+ /* line animation */
+ .line1 {
+     animation: flow 35s linear infinite;
+ }
+
+ .line2 {
+     animation: flow 35s linear reverse infinite;
+ }
+
+ @keyframes flow {
+     0% {
+         transform: translateX(0);
+     }
+
+     100% {
+         transform: translateX(-50%);
+     }
+ }
+
+ .flow_line:hover {
+     animation-play-state: paused;
+ }
+
+
+
+ @keyframes more {
+     0% {
+         transform: translateY(0);
+     }
+
+     50% {
+         transform: translateY(15px);
+     }
+
+     100% {
+         transform: translateY(0);
+     }
+ }
+
+ /* */
+ #ongoing {
+     margin-top: 120px;
+     height: 1200px;
+ }
+
+ .ongoing_event1 {
+     display: flex;
+     justify-content: center;
+     gap: 85px;
+
+
+ }
+
+ .flow_line {
+     display: flex;
+     width: 4200px;
+     padding-bottom: 30px;
+ }
+
+ .flow_line ul {
+     display: flex;
+     justify-content: space-around;
+     width: 2100px;
+ }
+
+ .ongoing_event2 {
+     display: flex;
+     justify-content: flex-start;
+     gap: 85px;
+     margin-left: 96px;
+ }
+
+ .ongoing_event li {
+     width: 320px;
+     height: 500px;
+ }
+
+ .ongoing_event h3 {
+     font-size: 18px;
+     color: #daa520;
+     padding-bottom: 15px;
+ }
+
+ .ongoing_event strong {
+     font-size: 16px;
+     line-height: 22px;
+     font-weight: 400;
+
+ }
+
+ .ongoing_event p {
+     font-size: 14px;
+     line-height: 21px;
+     font-weight: 400;
+     padding-top: 10px;
+ }
+
+ .ongoing_event2 {
+     margin-top: 100px;
+ }
+
+
+
+
+ /*  */
+
+ #online {
+     margin-top: 90px;
+     height: 1450px;
+ }
+
+ .online_inner {
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+
+ .online_inner img {
+     width: 874px;
+     height: 100%;
+     display: block;
+     margin-bottom: 30px;
+ }
