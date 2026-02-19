@@ -117,7 +117,7 @@ body {
 }
 
 #wrap {
-    min-width: 1322px;
+    min-width: 1400px;
 
 }
 
@@ -185,7 +185,8 @@ body {
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: #3a3f33;
+    background-color: #1C1C1C;
+    border-top: 1px solid #f8f8ff;
 }
 
 .submenu_inner {
@@ -194,19 +195,19 @@ body {
     margin: 0 auto;
     padding-top: 30px;
     opacity: 0.8;
-    padding-left: 230px;
+    padding-left: 800px;
     display: flex;
     box-sizing: border-box;
 }
 
 .submenu_inner li a {
-    margin-right: 55px;
-    color: white;
+    margin-right: 65px;
+    color: #f8f8ff;
     font-size: 20px;
 }
 
 .submenu_inner li a:hover {
-    color: red;
+    color: #daa520;
 }
 
 .name {
